@@ -1,11 +1,17 @@
 import generate from './generate'
 import Fullscreen from './fullscreen'
+import BaseCanvas from './components/base_canvas'
 
-
+function testBaseCanvas() {
+  let baseCanvas = new BaseCanvas();
+}
 
 function testFullscreen() {
   let toggleFullscreenButton = document.createElement('button');
   toggleFullscreenButton.id = 'toggleFullscreenButtonID';
+  toggleFullscreenButton.style.position = 'absolute';
+  toggleFullscreenButton.style.top = 0;
+  toggleFullscreenButton.style.left = 0;
   toggleFullscreenButton.style.width = '200px';
   toggleFullscreenButton.style.height = '50px';
   toggleFullscreenButton.style.fontSize = '18px';
@@ -28,4 +34,5 @@ function testFullscreen() {
     toggleFullscreenButton.remove();
 }
 
+testBaseCanvas();
 testFullscreen();
