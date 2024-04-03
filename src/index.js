@@ -1,4 +1,3 @@
-import generate from './generate'
 import Fullscreen from './fullscreen'
 import BaseCanvas from './components/base_canvas'
 
@@ -19,7 +18,7 @@ function testFullscreen() {
 
   if (Fullscreen.isSupported()) {
     // fullscreen starts off
-    toggleFullscreenButton.textContent = 'Enter Fullscreen' + ': ' + generate();
+    toggleFullscreenButton.textContent = 'Enter Fullscreen';
   
     toggleFullscreenButton.addEventListener('click', function() {
       Fullscreen.toggle();
