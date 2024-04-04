@@ -1,3 +1,9 @@
 node_modules/
 dist/
 src/assets/
+
+# environment vars containing confidential data (passwords etc)
+.env
+
+# various notes, todo's etc.
+notes.txt
