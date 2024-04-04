@@ -2,6 +2,8 @@
 
 This project is an attempt to make a JavaScript framework for creating user interfaces based on canvases. It is mostly aimed at games and animations. The user interface will have a base canvas taking up the whole content of the browser, and fullscreen will be an option. On this base canvas it will be possible to have other movable canvases for various interface elements, e.g., buttons, game pieces, and animated effects.
 
+The project name is an acronym of Canvas Desktop.
+
 ## Installation
 
 The project is developed using VS Code, and a Node.js project using npm as package manager. Clone the project and run 'npm install' to install the packages used by the project. Then build the project using: 'npm run build'. The build project will be placed in './dist' in a bundle: 'candesk.js' created by webpack. Start 'index.html' to run the project.

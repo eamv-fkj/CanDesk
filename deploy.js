@@ -3,8 +3,12 @@
  * using: npm run deploy
  * (see: package.json, for the script)
  * 
- * FTP host, user and password is set in enviroments vars
- * in the './.env' file (_not_ commited to git!)
+ * FTP host, user and password is set in environment variables
+ * in the './.env' file (_not_ commited to git!):
+ * 
+ * CANDESK_JS_FTP_HOST=<not shown>
+ * CANDESK_JS_FTP_USER=<not shown>
+ * CANDESK_JS_FTP_PASSWORD=<not shown>
  */
 
 // https://www.npmjs.com/package/basic-ftp
