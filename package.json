@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
+    "build-test": "webpack --config webpack.test.config.js",
     "deploy": "node deploy.js"
   },
   "author": "Flemming K. Jensen",

@@ -1,0 +1,2 @@
+
+import './tests/extensions.test';
