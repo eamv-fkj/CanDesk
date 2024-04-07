@@ -1,6 +1,8 @@
 import Fullscreen from './fullscreen'
 import BaseCanvas from './components/base_canvas'
 
+//console.log = function() {}; // "disable" console.log()
+
 function testBaseCanvas() {
   let baseCanvas = new BaseCanvas();
 }
