@@ -67,5 +67,3 @@ Array.prototype.hasTypes = function(...types) {
 
   return true;
 };
-
-module.exports = { };

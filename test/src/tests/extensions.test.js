@@ -1,6 +1,6 @@
 import {startTest, endTest, unitTest, assert} from '../common/testing';
 
-import '../common/extensions';
+import '/src/common/extensions';
 
 
 startTest();

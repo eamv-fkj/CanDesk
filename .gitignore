@@ -1,7 +1,5 @@
 node_modules/
 dist/
-dist-test/
-src/assets/
 
 # environment vars containing confidential data (passwords etc)
 .env
